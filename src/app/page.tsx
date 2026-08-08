@@ -1,4 +1,6 @@
 import Footer from "@/components/Footer";
+import GradientOrbs from "@/components/GradientOrbs";
+import MatrixRain from "@/components/MatrixRain";
 import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
 import Contact from "@/sections/Contact";
@@ -11,8 +13,10 @@ import Skills from "@/sections/Skills";
 export default function Home() {
   return (
     <>
+      <MatrixRain />
+      <GradientOrbs />
       <Navbar />
-      <main className="relative flex-1">
+      <main className="relative z-10 flex-1">
         <Hero />
         <About />
         <Skills />

@@ -35,25 +35,25 @@ export const skillGroups: SkillGroup[] = [
     title: "Frameworks",
     icon: "layers",
     description: "Modern libraries for building scalable web applications.",
-    skills: ["React.js", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
+    skills: ["React.js", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Bootstrap"],
   },
   {
     title: "Embedded & IoT",
     icon: "chip",
     description: "Firmware, interfacing and connected device development.",
-    skills: ["Arduino", "ESP32", "Raspberry Pi", "GPIO", "IoT Systems"],
+    skills: ["Arduino", "ESP32", "Raspberry Pi", "Sensor Integration", "IoT Prototyping"],
   },
   {
     title: "Tools",
     icon: "layers",
     description: "Day-to-day development and design toolchain.",
-    skills: ["Git", "GitHub", "Linux", "npm", "Vercel"],
+    skills: ["Git", "GitHub", "Linux", "Bash", "npm", "Vercel", "Figma", "Photoshop", "GIMP", "Blender"],
   },
   {
     title: "Core",
     icon: "brain",
     description: "Key areas of technical expertise.",
-    skills: ["Embedded Systems", "IoT Development", "Web Development"],
+    skills: ["Embedded Systems", "IoT Development", "Web Development", "UI/UX Design", "Automation", "DBMS", "Operating Systems"],
   },
 ];
 
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     title: "Garbage Segregator Bin Level Indicator",
     category: "IoT",
     description:
-      "IoT-based smart waste system with automated sorting and monitoring",
+      "IoT-based smart waste management system with automated segregation and monitoring",
     tech: ["Raspberry Pi Pico", "Embedded C"],
     icon: "chip",
     accent: "emerald",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     title: "Smart Mirror",
     category: "Embedded / IoT",
     description:
-      "Real-time dashboard mirror using Raspberry Pi and APIs",
+      "Interactive mirror displaying real-time information using APIs",
     tech: ["Raspberry Pi", "JavaScript"],
     icon: "cpu",
     accent: "cyan",
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     title: "RF Signal Analysis System",
     category: "Signal Processing",
     description:
-      "Embedded system for RF signal testing and analysis",
+      "System for analyzing RF signals and wireless communication performance",
     tech: ["Embedded C"],
     icon: "signal",
     accent: "violet",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     title: "Enor & Cradle",
     category: "Systems",
     description:
-      "Custom programming language and virtual machine",
+      "Custom programming language with stack-based virtual machine",
     tech: ["C", "Python"],
     icon: "terminal",
     accent: "amber",
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     title: "Chameleon",
     category: "AI Infrastructure",
     description:
-      "AI runtime for dynamic multi-model execution",
+      "Stateless AI runtime for dynamic multi-model execution",
     tech: ["Python", "Rust"],
     icon: "brain",
     accent: "fuchsia",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     title: "Anthill",
     category: "Security",
     description:
-      "Distributed cybersecurity platform for threat detection",
+      "Distributed cybersecurity platform for real-time threat detection",
     tech: ["Rust", "SQLite"],
     icon: "shield",
     accent: "rose",

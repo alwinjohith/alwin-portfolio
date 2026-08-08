@@ -20,7 +20,6 @@ const focus = [
 ];
 
 const stats = [
-  { value: "6+", label: "Projects built" },
   { value: "4", label: "Core domains" },
   { value: "2", label: "Internships" },
   { value: "∞", label: "Curiosity" },
@@ -29,13 +28,14 @@ const stats = [
 export default function About() {
   return (
     <SectionWrapper id="about">
-      <SectionHeading
-        eyebrow="About"
-        title="Engineering intelligent systems, end to end"
-        description="An engineering student building scalable, intelligent and efficient systems."
-      />
+      <div className="texture-paper -mx-6 px-6 py-8 sm:-mx-8 sm:px-8 lg:-mx-8 lg:px-8 rounded-lg">
+        <SectionHeading
+          eyebrow="About"
+          title="Engineering intelligent systems, end to end"
+          description="An engineering student building scalable, intelligent and efficient systems."
+        />
 
-      <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
+        <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
         <div className="lg:col-span-3">
           <p className="text-xl font-medium leading-relaxed tracking-tight text-foreground sm:text-2xl">
             {intro}
@@ -89,6 +89,7 @@ export default function About() {
             ))}
           </ul>
         </motion.div>
+      </div>
       </div>
     </SectionWrapper>
   );

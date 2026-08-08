@@ -68,10 +68,10 @@ export default function Hero() {
 
         <motion.div variants={item} className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
           <a
-            href="#projects"
+            href="#research"
             className="group inline-flex items-center gap-2 rounded-md bg-primary px-7 py-3.5 text-sm font-medium text-white transition-all duration-300 hover:bg-foreground/80"
           >
-            View Projects
+            View Research
             <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
           <a
